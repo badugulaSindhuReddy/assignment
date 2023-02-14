@@ -1,0 +1,22 @@
+parquet format:
+
+fast query performance
+smaller size
+requires less data to be scanned
+----------------------------------------------------
+import pandas as pd // inorder to read parquet data
+parquet_file="file name and extension
+df=pd.read_parquet(parquet_file,engine='auto')
+---------------------------------------------------------
+//install apachepyarrow module if it shows the error
+
+pip install pyarrow
+
+-----------------------------
+df.sort_values('column name',ascending=['1'])
+
+---------------------------------------------------
+
+PYARROW MODULE
+
+CONDA INSTALL -C CONDA-FORGE PYARROW

@@ -1,0 +1,65 @@
+horizantal scaling(scale out/scale in):adding resources
+vertical(scale up/scale down):increasing computing power
+listen at 52:00  (to install any application in vm)
+---------------------------------
+ipv4/ipv6
+
+ipv4: notations to define ipv2 are: decimal notation(contains 4portions: 2 -idetify n/w , 2 identify the host)(32bits)
+ipv6- hexadecimal notation : thre are 8 partitions(128bit)each portion 16bits
+
+totally 5 clses in ipv4(a-e)
+a: 0to127
+b:128-192
+C:193-233
+d:224-239
+e:240-255
+
+-----------------------------
+subnet:
+part ofip addreesses of the n/w
+
+n/w: collection of ip address
+
+in azure each subnet 5 ip adress(conectivity,purpose,dns,routing)first 4 last 1
+--------------------------
+NAT--n/w address translation
+used to hide the original ip address
+watch at 1:25:00
+--------------
+vnet peering:(connection b/w two vm's)
+
+no overlapping ip adreesses
+
+transitive connections not allowed(a->b;b->c;a->c)
+-------------------------------------------
+Aure app services- we can deply the app under particular services
+this comes under(paas)
+
+platforms provides:storage,security,vms,resouces
+--------------------
+
+seach app services
+createapp services
+we can deploy docker also and static web app also
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

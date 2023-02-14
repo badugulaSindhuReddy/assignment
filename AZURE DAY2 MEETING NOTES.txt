@@ -1,0 +1,226 @@
+                                    AZURE
+--------------------------------------------------------------------------------------------------------------
+what are the traffic allowed in inbound port?
+
+LINUX-SSH
+WINDOWS-RDP
+remaining traffics are blocked
+---------------------------------------------
+for outbound wt are the traffucs allowed?
+
+getting response from url
+in outbound  default all traffic is allowed
+--------------------------------------------
+http-80(port number)
+smtp-25
+pop(post office protocol)-110
+ssl-sexure socket lyer
+ssh(22)-public key
+https-443
+mongodb-27017
+------------------------------------------
+encryption at host?
+before uploading to host data encrypted this is called encryption at host
+--------------------
+disk type
+
+SSD(solid state drive
+HDD(hard disk drive
+
+-----------------------------
+customer managed key- user using key for encryption and decryption
+------------------
+generating a key:
+
+kms:key management services (in search bar)
+
+default provied by azure:platform managed key
+
+we can use customized+platformed combined key also
+----------------------------------
+EPHERMERAL(instance store) OS DISK:
+
+data is not stored under hard disk
+once we stop the machine data will be erased i.e, we cannot access the data
+
+in which scenario we can use other?
+if we want to use the same vm for multiple tyms then we should go with other than ephemeral
+--------------------------------------------
+
+once we launch the mach we get the ip address
+we get ipaddress for mach from virtual n/w
+once we launch the mach we get 2(public,private) ip addresss by default
+
+in which type of scenario we select public ip as none?
+when mach is running in intranet not on internet
+
+when application is running on public n/w then enable
+--------------------------------
+
+NIC-n/w interface cart
+
+we can add the port and remove the port in create n/w security grp
+by clicking create new in configure n/w security grp
+select advanced in NIC n/w security grp
+-----------------------
+
+default all traffic should be allowed in outbound
+--------------------------------
+
+load balencer--redirect the traffic to other servers when load is mpre
+distribute/divides the traffic across multiple servers
+
+2 types:
+
+1)application gateway(layer 7(applicaton layer):application traffic
+2)azure load balencer(transport layer layer4):distribute the traffic of n/w
+-------------------------------------
+AAD(azure active directory)-- access muiple resouces based on uasage
+------------------------------
+CUSTOM DATA:
+
+#!/bin/bash  --- should strt with this
+
+
+instead of installing s/w after launching we can provide commands in custom data so that they get installed while launching the vm itsef
+
+for java application we use commands called:
+
+ubuntu pkg manager: apt-get
+
+sudo apt-get update -y
+sudo apt-get install openjdk-11.0
+----------------------------------------
+RSA(public key encryption algo)--2keys
+--------------------
+go to resources
+
+ip address gets changed because of shotage of ip add
+for ipv4 we can generate (2^32)(4billion) ip addreess
+ip address depends on the n/w in which we are connected
+
+if we want to get same ip address we should use static ip address
+max we can get 5 static ip address for one mach
+we can assgin 5 machines for static ip address
+----------------------------------------
+-
+MOBAXTERMS
+SESSION
+SSH
+
+IN RECORDING AT 1:41:00
+
+----------------------------
+2:12:20
+
+STORAGE ACCOUNT
+
+data can be in any format(structure / unstrucuture) 500tb data can be stored(multimedi,images.files,tables etc)
+we can store object,nosql,queus of data also can be stored
+-------------------------------------------
+go to storage account
+
+go to create
+go to basics
+select subscription
+select resource grp
+storage acc name:should be globally unique until we are going tto delete the acc
+performace:standrad (general purpose, premium(access data in low latency,no delay
+disks:preimum ssd, standard ssd,hdd
+
+redundancy:wt type of data stored in secondary memory
+Georedundancy storage(data availble accorss different regions), local(cheap:non critical work load:data is not so imp) (single region), zone redundancy ( data available multiple availability zones)
+
+which is the best for sensitive/critical and non sensitive/non-critical workload?
+sensitive-Geo zone
+
+----------------------------------------------------
+
+go to adavanced
+
+
+allow all 3 check boxes
+
+access tier: Hot(day to day uasge, data can be accesed fast),cold(infrequently accessed data, delay in accessing the data
+
+-------------------------------------------
+in data protection
+enable soft delete containers and blobs and filesshares(we can get back the data after deleting also)
+----------------------------------
+blobs are in a container
+-----------------------------------
+2:40:00 :-see once
+--------------------------
+giga bytes
+gigi bytes
+--------------------------------
+we have backup data seperately to store the backup data if we want to get back our data
+-------------------------------
+life cycle management-- moving data from one tier to other tier after few days automatically
+----------------------------------
+
+advantages of running 
+
+------------------------
+
+1]cosmosdb -- search
+2]create
+3]sql databases click
+4]create
+5]they provide security,scalablity everything is taken care by azure
+6]server - create new click-- provide all the details here
+
+sql elastic pool-- grouping multiple sql elastic servers
+
+severless- user no need to worry about the managing the servers everything managed by azure
+
+--------------
+install sql server mgmt studio 2012)(at 3:00:00)
+-------------
+go to the query editor in azure
+login with pass,name created for db
+enter the queries
+
+--------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

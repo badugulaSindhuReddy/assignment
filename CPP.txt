@@ -1,0 +1,6 @@
+reference int& variable name=my_int;
+refernces are not pointers and objects
+there are no pointers to refernces
+pointers are more powerful than pointers
+
+LEARN FILES
